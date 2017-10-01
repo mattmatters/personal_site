@@ -38,6 +38,8 @@ links:
     url: /about
 # projects in header index
 projects:
+  - name: This site
+    url: https://github.com/mattmatters/mattmatters.github.io
   - name: MicroUrl
     url: https://github.com/mattmatters/microURL
   - name: Dumb vanity site
