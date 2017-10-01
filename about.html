@@ -1,0 +1,68 @@
+---
+layout: minimal
+title: "About me"
+permalink: /about/index.html
+description: "Some description about Victor Igor..."
+---
+
+<img itemprop="image" class="img-rounded about_perfil" src=" https://68.media.tumblr.com/93f384858e9273d5b980b418e2f2f4d5/tumblr_o5i2aybLJG1uapsfmo2_250.png" alt="My profile">
+
+<h2> Backend / "Fullstack" Web Developer </h2>
+
+<p>Making stuff is cool, but solving problems is even cooler.</p>
+
+<p>
+    I focus on building scalable web applications.  Solving problems such as to never
+    keep a system from going down, error handling, and all the other complications
+    from production applications.
+</p>
+
+<p>
+    Even better though is making something impactful, providing actual utility to the
+    end user. Solving programming problems is fun, but solving real world problems
+    through programming is awesome.
+</p>
+
+<p>
+    I'd love to connect if you feel the same way.
+</p>
+
+<h2>My projects</h2>
+
+<div class="aboutme">
+    <ul class="recent">
+	{% for project in site.projects %}
+	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+	{% endfor %}
+    </ul>
+</div>
+
+
+<h2>Work History</h2>
+
+<h4>C3 Metrics</h4>
+<p><b>Web Developer:</b> <i>Mar. 2017 - present</i></p>
+
+<ul>
+    <li>Marketing attribution company processing more than a 150 million unique touchpoints every month to create customer paths from the start to conversion.</li>
+    <li>Designed and implemented systems for incorporating offline media, digital touchpoints from a propriety site tag system, and direct mail to give an effective attribution data for optimizing marketing spend</li>
+    <li>Project lead for a lite version of the main service utilizing Google Analytics and Facebook data instead of the company's tagging system</li>
+    <li>Constructed statistical and Bayesian data modeling systems</li>
+</ul>
+
+<h4>The Matters of Matt</h4>
+<p><b>Freelance Web Designer:</b> <i>Jan. 2015 - presentish</i></p>
+<p>
+    Custom websites for people.  I initially started just making websites with custom
+    styling and layouts and hosting them on AWS for people.
+</p>
+<p>
+    Turns out the part I enjoyed the most was the systems side of things.  Making
+    something pretty is rewarding, but it's not the type of problems I get the most
+    enjoyment out of solving.
+</p>
+<p>
+    I still do some website design on occassion but at this point it's mostly for
+    friends who just need a little help establishing a web presence.
+</p>
+

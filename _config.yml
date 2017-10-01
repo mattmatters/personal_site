@@ -1,0 +1,48 @@
+# Site settings
+title: Matt Matters
+description: "Matters that effect mostly Matt"
+baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
+url: "https://mattmatters.github.io"
+# User settings
+username: Matt Lewis
+user_title: Web Everything
+email: domattthings@gmail.com
+twitter_username: dancinpolkabear
+github_username:  mattmatters
+profile_picture: /assets/img/coolMatt.jpg
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  - title: home
+    url: /
+  - title: my posts
+    url: /posts
+  - title: series
+    url: /series
+  - title: tags
+    url: /tags
+  - title: about me
+    url: /about
+# projects in header index
+projects:
+  - name: MicroUrl
+    url: https://github.com/mattmatters/microURL
+  - name: Dumb vanity site
+    url: http://themattersofmatt.com
+  - name: Elair
+    url: https://github.com/mattmatters/elair
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
