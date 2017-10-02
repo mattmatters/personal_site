@@ -38,13 +38,15 @@ links:
     url: /about
 # projects in header index
 projects:
+  - name: Elair
+    url: https://github.com/mattmatters/elair
   - name: This site
     url: https://github.com/mattmatters/mattmatters.github.io
+  - name: Markdown Preview
+    url: https://github.com/mattmatters/markdownPreview
   - name: MicroUrl
     url: https://github.com/mattmatters/microURL
   - name: Dumb vanity site
     url: http://themattersofmatt.com
-  - name: Elair
-    url: https://github.com/mattmatters/elair
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
