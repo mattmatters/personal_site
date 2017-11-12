@@ -32,23 +32,18 @@ description: "Some description about Victor Igor..."
 <div class="aboutme">
     <ul class="recent">
 	{% for project in site.projects %}
-	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+	<li><a href="{{ project.url }}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
 	{% endfor %}
     </ul>
 </div>
-
 
 <h2>Work History</h2>
 
 <h4>C3 Metrics</h4>
 <p><b>Web Developer:</b> <i>Mar. 2017 - present</i></p>
-
-<ul>
-    <li>Marketing attribution company processing more than a 150 million unique touchpoints every month to create customer paths from the start to conversion.</li>
-    <li>Designed and implemented systems for incorporating offline media, digital touchpoints from a propriety site tag system, and direct mail to give an effective attribution data for optimizing marketing spend</li>
-    <li>Project lead for a lite version of the main service utilizing Google Analytics and Facebook data instead of the company's tagging system</li>
-    <li>Constructed statistical and Bayesian data modeling systems</li>
-</ul>
+<p>
+    Full stack, big data, <i>web scale</i> developer.
+</p>
 
 <h4>The Matters of Matt</h4>
 <p><b>Freelance Web Designer:</b> <i>Jan. 2015 - presentish</i></p>
@@ -56,13 +51,14 @@ description: "Some description about Victor Igor..."
     Custom websites for people.  I initially started just making websites with custom
     styling and layouts and hosting them on AWS for people.
 </p>
-<p>
-    Turns out the part I enjoyed the most was the systems side of things.  Making
-    something pretty is rewarding, but it's not the type of problems I get the most
-    enjoyment out of solving.
-</p>
-<p>
-    I still do some website design on occassion but at this point it's mostly for
-    friends who just need a little help establishing a web presence.
-</p>
+
+<h2>Other Random Stuff</h2>
+<div class="aboutme">
+    <ul class="recent">
+	{% for thing in site.random %}
+	<li><a href="{{ thing.url }}" targe="__blank"><h3 class="project-name" itemprop="name">{{ thing.name }}</h3></a></li>
+	{% endfor %}
+    </ul>
+</div>
+
 

@@ -42,11 +42,37 @@ projects:
     url: https://github.com/mattmatters/elair
   - name: This site
     url: https://github.com/mattmatters/mattmatters.github.io
-  - name: Markdown Preview
-    url: https://github.com/mattmatters/markdownPreview
   - name: MicroUrl
     url: https://github.com/mattmatters/microURL
-  - name: Dumb vanity site
+
+random:
+  - name: Vanity Site
     url: http://themattersofmatt.com
+    description: "Look at this when in need of a confidence boost"
+  - name: Another Calculator
+    url: https://github.com/mattmatters/mattmatters.github.io
+    description: "Calculator written using the new and hip React-Redux"
+  - name: Duck Dynasty 2
+    url: http://duckdynasty2.site/
+    description: "Fan site for the upcoming sequel."
+  - name: Barlen Electronics
+    url: http://themattersofmatt.com
+    description: "Commissioned company website"
+  - name: Straw Brian Short Cake
+    url: http://strawbrianshortcake.com/
+    description: "My finest graphic design work ever."
+  - name: B Nice B Short
+    url: http://bnicebshort.com.s3-website-us-east-1.amazonaws.com
+    description: "My worst graphic design work ever."
+  - name: Markdown Previewer
+    url: http://markdownpreview.com.s3-website-us-east-1.amazonaws.com
+    description: "Everyone makes one of these"
+  - name: Old bootsrap thing I found on a hardrive
+    url: http://loureedtribute.com.s3-website-us-east-1.amazonaws.com
+    description: "I think I made this a long time ago."
+  - name: I have no idea
+    url: http://photocrossfadetest.com.s3-website-us-east-1.amazonaws.com
+    description: "The world can have this too."
+
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
