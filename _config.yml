@@ -42,8 +42,8 @@ projects:
     url: https://github.com/mattmatters/elair
   - name: This site
     url: https://github.com/mattmatters/mattmatters.github.io
-  - name: MicroUrl
-    url: https://github.com/mattmatters/microURL
+  - name: Kinda Small URL
+    url: http://www.kindasmallurl.fun
 
 random:
   - name: Vanity Site
