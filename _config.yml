@@ -57,7 +57,7 @@ random:
     url: http://calc-redux.com.s3-website-us-east-1.amazonaws.com/
     description: "Calculator written using the new and hip React-Redux"
   - name: Barlen Electronics
-    url: http://themattersofmatt.com
+    url: http://barlenelectronics.com
     description: "Commissioned company website"
   - name: Straw Brian Short Cake
     url: http://strawbrianshortcake.com/
