@@ -50,21 +50,21 @@ random:
   - name: Vanity Site
     url: http://themattersofmatt.com
     description: "Look at this when in need of a confidence boost"
-  - name: Another Calculator
-    url: https://github.com/mattmatters/mattmatters.github.io
-    description: "Calculator written using the new and hip React-Redux"
   - name: Duck Dynasty 2
     url: http://duckdynasty2.site/
-    description: "Fan site for the upcoming sequel."
+    description: "Commission for the upcoming sequel."
+  - name: Another Calculator
+    url: http://calc-redux.com.s3-website-us-east-1.amazonaws.com/
+    description: "Calculator written using the new and hip React-Redux"
   - name: Barlen Electronics
     url: http://themattersofmatt.com
     description: "Commissioned company website"
   - name: Straw Brian Short Cake
     url: http://strawbrianshortcake.com/
-    description: "My finest graphic design work ever."
+    description: "My <b>finest</b> graphic design work ever."
   - name: B Nice B Short
     url: http://bnicebshort.com.s3-website-us-east-1.amazonaws.com
-    description: "My worst graphic design work ever."
+    description: "My <b>worst</b> graphic design work ever."
   - name: Markdown Previewer
     url: http://markdownpreview.com.s3-website-us-east-1.amazonaws.com
     description: "Everyone makes one of these"
