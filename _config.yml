@@ -47,6 +47,9 @@ projects:
     url: http://www.kindasmallurl.fun
 
 random:
+  - name: Muffin Madness
+    url: http://muffinmadness.win
+    description: "The breadth of muffins"
   - name: Vanity Site
     url: http://themattersofmatt.com
     description: "Look at this when in need of a confidence boost"
