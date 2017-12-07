@@ -77,6 +77,9 @@ random:
   - name: I have no idea
     url: http://photocrossfadetest.com.s3-website-us-east-1.amazonaws.com
     description: "The world can have this too."
+  - name: Pizza Dogs
+    url: http://wienerpizza.men
+    description: "For all your pizza and dog needs"
 
 # exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
