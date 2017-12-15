@@ -1,5 +1,5 @@
 {
-  "name": "victorigortemplate",
+  "name": "mattmatters",
   "version": "1.0.0",
   "description": "My jekyll blog template.",
   "main": "gulpfile.js",
@@ -15,8 +15,8 @@
     "jekyll",
     "js"
   ],
-  "author": "Victor Igor",
-  "license": "ISC",
+  "author": "Matt Lewis",
+  "license": "MIT",
   "devDependencies": {
     "autoprefixer-stylus": "^0.4.0",
     "browser-sync": "^1.9.0",
