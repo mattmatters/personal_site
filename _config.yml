@@ -39,8 +39,8 @@ links:
     url: /about
 # projects in header index
 projects:
-  - name: Face Replace
-    url: https://github.com/mattmatters/face_replace
+  - name: Faceitize
+    url: https://github.com/mattmatters/faceitize
   - name: Elair
     url: https://github.com/mattmatters/elair
   - name: Kinda Small URL
