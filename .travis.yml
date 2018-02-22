@@ -1,5 +1,5 @@
 language: ruby
 cache: bundler
 install:
-  - bundle install
+  - gem install jekyll
 script: bundle exec jekyll build
