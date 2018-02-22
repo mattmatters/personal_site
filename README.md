@@ -1,4 +1,5 @@
 # The Matters of Matt
+[![Build Status](https://travis-ci.org/mattmatters/mattmatters.github.io.svg?branch=master)](https://travis-ci.org/mattmatters/mattmatters.github.io)
 [![Website Status](https://img.shields.io/website-up-down-green-red/http/mattmatters.io.svg?label=WebsiteStatus)](http://mattmatters.io)
 
 My personal site built on Jekyll.
