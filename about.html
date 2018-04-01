@@ -5,60 +5,65 @@ permalink: /about/index.html
 description: "I'm Matt Lewis, and these are things that matter to Matt."
 ---
 
-<img itemprop="image" class="img-rounded about_perfil" src="/assets/img/coolMatt.jpg" alt="My profile">
+<img itemprop="image"
+     class="img-rounded about_perfil"
+     src="/assets/img/coolMatt.jpg"
+     alt="My profile" />
 
-<h2> Backend / "Fullstack" Web Developer </h2>
+<section class="aboutme">
+    <h2> Backend / "Fullstack" Web Developer </h2>
+    <p>Making stuff is cool, but solving problems is even cooler.</p>
+    <p>
+        I focus on building scalable web applications.  Solving problems such as to never
+        keep a system from going down, error handling, and all the other complications
+        from production applications.
+    </p>
+    <p>
+        Even better though is making something impactful, providing actual utility to the
+        end user. Solving programming problems is fun, but solving real world problems
+        through programming is awesome.
+    </p>
+    <p>
+        I'd love to connect if you feel the same way.
+    </p>
+</section>
 
-<p>Making stuff is cool, but solving problems is even cooler.</p>
-
-<p>
-    I focus on building scalable web applications.  Solving problems such as to never
-    keep a system from going down, error handling, and all the other complications
-    from production applications.
-</p>
-
-<p>
-    Even better though is making something impactful, providing actual utility to the
-    end user. Solving programming problems is fun, but solving real world problems
-    through programming is awesome.
-</p>
-
-<p>
-    I'd love to connect if you feel the same way.
-</p>
-
-<h2>My projects</h2>
-
-<div class="aboutme">
+<section class="aboutme">
+    <h2>My projects</h2>
     <ul class="recent">
 	{% for project in site.projects %}
-	<li><a href="{{ project.url }}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
+	<li>
+            <a href="{{ project.url }}">
+                <h3 class="project-name" itemprop="name">{{ project.name }}</h3>
+            </a>
+        </li>
 	{% endfor %}
     </ul>
-</div>
+</section>
 
-<h2>Work History</h2>
+<section class="work-history">
+    <h2>Work History</h2>
+    {% for job in site.jobs %}
+    <div>
+        <h4>{{ job.name }}</h4>
+        <p><b>{{ job.title }}:</b> <i>{{ job.term }}</i></p>
+        <p>{{ job.description }}</p>
+    </div>
+    {% endfor %}
+</section>
 
-<h4>C3 Metrics</h4>
-<p><b>Web Developer:</b> <i>Mar. 2017 - present</i></p>
-<p>
-    Full stack, big data, <i>web scale</i> developer.
-</p>
 
-<h4>The Matters of Matt</h4>
-<p><b>Freelance Web Designer:</b> <i>Jan. 2015 - presentish</i></p>
-<p>
-    Custom websites for people.  I initially started just making websites with custom
-    styling and layouts and hosting them on AWS for people.
-</p>
-
-<h2>Other Random Stuff</h2>
-<div class="aboutme">
+<section class="aboutme">
+    <h2>Other Random Stuff</h2>
     <ul class="recent">
 	{% for thing in site.random %}
-	<li><a href="{{ thing.url }}" target="_blank"><h3 class="project-name" itemprop="name">{{ thing.name }}</h3></a></li>
+	<li>
+            <a href="{{ thing.url }}" target="_blank">
+                <h3 class="project-name" itemprop="name">{{ thing.name }}</h3>
+            </a>
+        </li>
 	{% endfor %}
     </ul>
-</div>
+</section>
 
 

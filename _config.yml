@@ -38,6 +38,17 @@ links:
   - title: about me
     url: /about
 
+
+jobs:
+  - name: C3 Metrics
+    title: Web Developer
+    term: "Mar. 2017 - present"
+    description: "Full stack, big data, <i>web scale</i> developer."
+  - name: The Matters of Matt
+    title: Freelance Web Designer
+    term: "Jan. 2015 - Mar. 2017"
+    description: "Custom websites for people.  I initially started just making websites with custom styling and layouts and hosting them on AWS for people."
+
 # Projects in header index
 projects:
   - name: Twitkov
