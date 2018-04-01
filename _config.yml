@@ -42,12 +42,16 @@ links:
 projects:
   - name: Twitkov
     url: https://twitkov.club
+    description: "Markov Chain Generator for tweets"
   - name: Faceitize
     url: https://github.com/mattmatters/faceitize
+    description: "Morph a face to another body"
   - name: Elair
     url: https://github.com/mattmatters/elair
+    description: "CLI for airport information"
   - name: Kinda Small URL
     url: http://www.kindasmallurl.fun
+    description: "An inconvient url shortener"
 
 # All of the other dumb stuff I do
 random:
