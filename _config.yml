@@ -1,6 +1,6 @@
 # Site settings
 title: Matt Matters
-description: "Matters that effect mostly Matt"
+description: "Matters that affect mostly Matt"
 baseurl: ""
 url: "https://mattmatters.io"
 
@@ -46,6 +46,9 @@ projects:
   - name: Faceitize
     url: https://github.com/mattmatters/faceitize
     description: "Morph a face to another body"
+  - name: Flushing Reality
+    url: https://flushingreality.com
+    description: "Blog about bathrooms in video games"
   - name: Elair
     url: https://github.com/mattmatters/elair
     description: "CLI for airport information"
@@ -55,18 +58,12 @@ projects:
 
 # All of the other dumb stuff I do
 random:
-  - name: Muffin Madness
-    url: http://muffinmadness.win
-    description: "The breadth of muffins"
   - name: Vanity Site
-    url: http://themattersofmatt.com
+    url: https://themattersofmatt.com
     description: "Look at this when in need of a confidence boost"
   - name: Duck Dynasty 2
-    url: http://duckdynasty2.site/
+    url: https://duckdynasty2.site/
     description: "Commission for the upcoming sequel."
-  - name: Another Calculator
-    url: http://calc-redux.com.s3-website-us-east-1.amazonaws.com/
-    description: "Calculator written using the new and hip React-Redux"
   - name: Barlen Electronics
     url: http://barlenelectronics.com
     description: "Commissioned company website"
@@ -76,6 +73,12 @@ random:
   - name: B Nice B Short
     url: http://bnicebshort.com.s3-website-us-east-1.amazonaws.com
     description: "My <b>worst</b> graphic design work ever."
+  - name: Muffin Madness
+    url: https://muffinmadness.win
+    description: "The breadth of muffins"
+  - name: Another Calculator
+    url: http://calc-redux.com.s3-website-us-east-1.amazonaws.com/
+    description: "Calculator written using the new and hip React-Redux"
   - name: Markdown Previewer
     url: http://markdownpreview.com.s3-website-us-east-1.amazonaws.com
     description: "Everyone makes one of these"
@@ -86,7 +89,7 @@ random:
     url: http://photocrossfadetest.com.s3-website-us-east-1.amazonaws.com
     description: "The world can have this too."
   - name: Pizza Dogs
-    url: http://wienerpizza.men
+    url: https://wienerpizza.men
     description: "For all your pizza and dog needs"
 
 # exclude my node related stuff
