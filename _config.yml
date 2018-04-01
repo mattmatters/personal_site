@@ -38,12 +38,12 @@ links:
   - title: about me
     url: /about
 
-
+# The places I've worked
 jobs:
   - name: C3 Metrics
     title: Web Developer
     term: "Mar. 2017 - present"
-    description: "Full stack, big data, <i>web scale</i> developer."
+    description: "Project lead on creating fast and accurate data pipelines for web analytics data."
   - name: The Matters of Matt
     title: Freelance Web Designer
     term: "Jan. 2015 - Mar. 2017"
@@ -78,6 +78,9 @@ random:
   - name: Barlen Electronics
     url: http://barlenelectronics.com
     description: "Commissioned company website"
+  - name: Mr. Worldwide Website
+    url: https://mrworldwide.website
+    description: "Ask Pitbull for a car!"
   - name: Straw Brian Short Cake
     url: http://strawbrianshortcake.com/
     description: "My <b>finest</b> graphic design work ever."
