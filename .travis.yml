@@ -1,7 +1,20 @@
 language: ruby
+
+cache:
+  - gem
+  - npm
+
+before_install:
+  - nvm install 9
+
 install:
   - gem install jekyll
-script: jekyll build
+  - npm install
+
+script:
+  - npm run build
+  - jekyll build
+
 deploy:
   on:
     branch: master
