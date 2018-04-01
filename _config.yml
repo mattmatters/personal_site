@@ -1,8 +1,9 @@
 # Site settings
 title: Matt Matters
 description: "Matters that effect mostly Matt"
-baseurl: "" # for test: remove string '/space-jekyll-templa' to ''
-url: "https://mattmatters.github.io"
+baseurl: ""
+url: "https://mattmatters.io"
+
 # User settings
 username: Matt Lewis
 user_title: Web Everything
@@ -16,7 +17,6 @@ profile_picture: /assets/img/coolMatt.jpg
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
-
 
 # html minify
 compress_html:
@@ -37,8 +37,11 @@ links:
     url: /tags
   - title: about me
     url: /about
-# projects in header index
+
+# Projects in header index
 projects:
+  - name: Twitkov
+    url: https://twitkov.club
   - name: Faceitize
     url: https://github.com/mattmatters/faceitize
   - name: Elair
@@ -46,6 +49,7 @@ projects:
   - name: Kinda Small URL
     url: http://www.kindasmallurl.fun
 
+# All of the other dumb stuff I do
 random:
   - name: Muffin Madness
     url: http://muffinmadness.win
