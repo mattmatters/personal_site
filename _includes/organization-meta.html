@@ -7,11 +7,7 @@
   },
   {% endif %}
   "url": "{{ site.url }}",
-  "founders": [
-  {% for author in site.authors %}
-    {% include author-meta.html %}{% if forloop.last == false %},{% endif %}
-  {% endfor %}
-  ],
+  "founder": {% include author-meta.html %},
   {% if site.location %}
   "location": "{{ site.location }}",
   {% endif %}
