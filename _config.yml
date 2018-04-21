@@ -47,7 +47,7 @@ jobs:
   - name: C3 Metrics
     title: Web Developer
     term: "Mar. 2017 - present"
-    description: "Project lead on creating fast and accurate data pipelines for web analytics data."
+    description: "Project lead on creating fast and accurate data pipelines for web analytics data. I personally lead the rewrite of the data processer providing an 8x speed increase."
   - name: The Matters of Matt
     title: Freelance Web Designer
     term: "Jan. 2015 - Mar. 2017"
