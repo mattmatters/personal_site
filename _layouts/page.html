@@ -6,6 +6,9 @@ layout: compress
 <html lang="pt-br">
   	{% include head.html %}
     <body>
+        <script type="application/ld+json">
+         {% include author-meta.html %}
+        </script>
         {% include gtag-body.html %}
     	{% include svg-icons.html %}
 		<header class="page-header">

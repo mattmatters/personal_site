@@ -3,12 +3,16 @@ title: Matt Matters
 description: "Matters that affect mostly Matt"
 baseurl: ""
 url: "https://mattmatters.io"
+found_date: "2015-01-01"
+location: "United States"
 
 # User settings
 username: Matt Lewis
 user_title: Web Everything
+user_position: Web Developer
 email: domattthings@gmail.com
 twitter_username: dancinpolkabear
+linkedin_username: doingmattstuff
 github_username:  mattmatters
 gitlab_username: mattmatters
 profile_picture: /assets/img/coolMatt.jpg

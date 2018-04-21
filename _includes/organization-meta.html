@@ -1,0 +1,22 @@
+{
+  "@type": "Organization",
+  {% if site.logo %}
+  "logo": {
+    "@type": "ImageObject",
+    "url": "{{ site.logo }}"
+  },
+  {% endif %}
+  "url": "{{ site.url }}",
+  "founders": [
+  {% for author in site.authors %}
+    {% include author-meta.html %}{% if forloop.last == false %},{% endif %}
+  {% endfor %}
+  ],
+  {% if site.location %}
+  "location": "{{ site.location }}",
+  {% endif %}
+  {% if site.found_date %}
+  "foundingDate": "{{ site.found_date | date_to_xml_schema }}",
+  {% endif %}
+  "name": "{{ site.name }}"
+}
