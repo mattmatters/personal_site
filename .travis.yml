@@ -8,7 +8,7 @@ before_install:
   - nvm install 9
 
 install:
-  - gem install jekyll
+  - bundle install
   - npm install
 
 script:

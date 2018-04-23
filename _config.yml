@@ -3,10 +3,31 @@ title: Matt Matters
 description: "Matt Lewis is a United States based web developer with a specialization in distributed system architecture and data processing. This is a blog to express matters that affect mostly Matt"
 baseurl: ""
 url: "https://mattmatters.io"
-found_date: "2015-01-01"
-location: "United States"
 
 # User settings
+author:
+  name: Matt Lewis
+  url: "https://mattmatters.io"
+  image: /assets/img/coolMatt.jpg
+  twitter: dancingpolkabear
+  position: Web Developer
+  found_date: "2015-01-01"
+  location: "United States"
+  description: "Matt Lewis is a United States based web developer with a specialization in distributed system architecture and data processing. This is a blog to express matters that affect mostly Matt"
+  links:
+    - https://twitter.com/dancingpolkabear
+    - https://www.linkedin.com/in/doingmattstuff
+    - https://plus.google.com/u/0/111168965612493552091
+    - https://github.com/mattmatters
+
+social:
+  name: Matt Lewis
+  links:
+    - https://twitter.com/dancingpolkabear
+    - https://www.linkedin.com/in/doingmattstuff
+    - https://plus.google.com/u/0/111168965612493552091
+    - https://github.com/mattmatters
+
 username: Matt Lewis
 user_title: Web Everything
 user_position: Web Developer
@@ -17,10 +38,22 @@ github_username:  mattmatters
 gitlab_username: mattmatters
 profile_picture: /assets/img/coolMatt.jpg
 
+plugins:
+  - jemoji
+  - jekyll-analytics
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
 permalink: /:title/
+
+jekyll_analytics:
+  GoogleAnalytics:
+    id: UA-110856410-1
+    anonymizeIp: false
 
 # html minify
 compress_html:
