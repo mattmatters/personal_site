@@ -12,6 +12,7 @@ author:
   twitter: dancingpolkabear
   position: Web Developer
   found_date: "2015-01-01"
+  logo: "https://mattmatters.io/assets/img/coolMatt.jpg"
   location: "United States"
   description: "Matt Lewis is a United States based web developer with a specialization in distributed system architecture and data processing. This is a blog to express matters that affect mostly Matt"
   links:
@@ -28,6 +29,7 @@ social:
     - https://plus.google.com/u/0/111168965612493552091
     - https://github.com/mattmatters
 
+logo: "https://mattmatters.io/assets/img/coolMatt.jpg"
 username: Matt Lewis
 user_title: Web Everything
 user_position: Web Developer
