@@ -106,6 +106,9 @@ projects:
 
 # All of the other dumb stuff I do
 random:
+  - name: Text Garbler
+    url: https://text-garbler.herokuapp.com/
+    description: "The most useless api"
   - name: Vanity Site
     url: https://themattersofmatt.com
     description: "Look at this when in need of a confidence boost"
