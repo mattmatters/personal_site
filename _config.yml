@@ -90,6 +90,9 @@ jobs:
 
 # Projects in header index
 projects:
+  - name: Celebraphone
+    url: https://celebraphone.io
+    description: "Facial detection and replacing in Web Assembly"
   - name: Twitkov
     url: https://twitkov.club
     description: "Markov Chain Generator for tweets"
