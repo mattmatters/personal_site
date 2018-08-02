@@ -15,12 +15,13 @@ var messages = {
 	jekyllBuild: '<span style="color: grey">Running:</span> $ jekyll build'
 };
 
-var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'jekyll';
+var jekyllCommand = (/^win/.test(process.platform)) ? 'jekyll.bat' : 'bundle exec jekyll build';
 
 /**
  * Build the Jekyll Site
  */
 gulp.task('jekyll-build', function (done) {
+  console.log(messages.jekyllBuild);
 	browserSync.notify(messages.jekyllBuild);
 	return cp.spawn(jekyllCommand, ['build'], {stdio: 'inherit'})
 		.on('close', done);
@@ -54,9 +55,9 @@ gulp.task('stylus', function(){
 			use:[koutoSwiss(), prefixer(), jeet(),rupture()],
 			compress: true
 		}))
-		.pipe(gulp.dest('_site/assets/css/'))
+                .pipe(gulp.dest('assets/css/'))
 		.pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('assets/css'));
+                .pipe(gulp.dest('_site/assets/css/'));
 });
 
 /**
@@ -69,7 +70,7 @@ gulp.task('js', function(){
 		.pipe(uglify())
 		.pipe(gulp.dest('assets/js/'))
 		.pipe(browserSync.reload({stream:true}))
-    .pipe(gulp.dest('_site/assets/js/'));
+                .pipe(gulp.dest('_site/assets/js/'));
 });
 
 /**
