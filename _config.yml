@@ -1,5 +1,5 @@
 # Site settings
-title: Matt Matters
+title: "Matt Matters"
 description: "Matt Lewis is a United States based web developer with a specialization in distributed system architecture and data processing. This is a blog to express matters that affect mostly Matt"
 baseurl: ""
 url: "https://mattmatters.io"
@@ -152,4 +152,4 @@ random:
     description: "For all your pizza and dog needs"
 
 # exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+exclude: ['package.json', 'src', 'node_modules', 'vendor']
