@@ -1,3 +1,16 @@
+body {
+    background-color: #f6f6ef;
+}
+
+h1, h2, h3 {
+    font-family: Gill Sans, Helvetica;
+}
+
+p, ul {
+    font-family: Helvetica, Times New Roman;;
+    color: #828282;
+}
+
 .main_page_header {
     text-align: center;
 }
@@ -25,7 +38,7 @@
 
 @media only screen and (min-width: 992px) {
     .main_page_container {
-        margin-left: 8em;
-        margin-right: 8em;
+        margin-left: 16em;
+        margin-right: 16em;
     }
 }
