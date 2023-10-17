@@ -15,6 +15,10 @@ a, p, ul {
     display: inline-block;
 }
 
+.main_page_link_container {
+    max-width: 20em;
+}
+
 .connecting_link {
     display: inline-flex;
     align-items: center;
