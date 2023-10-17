@@ -6,9 +6,31 @@ h1, h2, h3 {
     font-family: Gill Sans, Helvetica;
 }
 
-p, ul {
-    font-family: Helvetica, Times New Roman;;
+a, p, ul {
+    font-family: Helvetica, Times New Roman;
     color: #828282;
+}
+
+.icon {
+    display: inline-block;
+}
+
+.connecting_link {
+    display: inline-flex;
+    align-items: center;
+    border-radius: .5rem;
+    padding-bottom: .125rem;
+    padding-top: .125rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    color: black;
+    text-decoration: inherit;
+    gap: .75rem;
+}
+
+.connecting_link img {
+    width: 1rem;
+    height: 1rem;
 }
 
 .main_page_header {
