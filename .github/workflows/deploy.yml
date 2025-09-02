@@ -11,6 +11,9 @@ concurrency:
 
 jobs:
   deploy:
+    permissions:
+      id-token: write
+      contents: read
     environment: "production"
     runs-on: ubuntu-latest
     steps:
