@@ -12,7 +12,9 @@ a, p, ul {
 }
 
 .main_page_link_container {
-    max-width: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .connecting_link {
