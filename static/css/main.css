@@ -12,7 +12,7 @@ a, p, ul {
 }
 
 .main_page_link_container {
-    max-width: 20em;
+    max-width: 20rem;
 }
 
 .connecting_link {
@@ -36,18 +36,18 @@ a, p, ul {
 
 @media only screen and (max-width: 767px) {
     .main_page_container {
-        margin-inline: 1em;
+        margin-inline: 1rem;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .main_page_container {
-        margin-inline: 5em;
+        margin-inline: 5rem;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .main_page_container {
-        margin-inline: 16em;
+        margin-inline: 16rem;
     }
 }
